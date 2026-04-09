@@ -9,8 +9,7 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
 
-st.title('Pregunta sobre tu pdf 💬 , 
-"-recuperación (RAG)-')
+st.title('Pregunta sobre tu pdf 💬 , -recuperación (RAG)-')
 
 # Load and display image
 try:
