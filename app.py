@@ -9,10 +9,6 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
 
-# App title and presentation
-st.title('Pregunta sobre tu pdf , Recuperación (RAG) 💬')
-st.write("Versión de Python:", platform.python_version())
-
 # Load and display image
 try:
     image = Image.open('Chat_pdf.png')
@@ -90,3 +86,8 @@ elif pdf is not None and not ke:
     st.warning("Por favor ingresa tu clave de API de OpenAI para continuar")
 else:
     st.info("Por favor carga un archivo PDF para comenzar")
+
+
+# App title and presentation
+st.title('Pregunta sobre tu pdf , Recuperación (RAG) 💬')
+st.write("Versión de Python:", platform.python_version())
