@@ -9,7 +9,9 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
 
-st.title('Pregunta sobre tu pdf 💬 ,     -recuperación (RAG)-')
+st.title('Pregunta sobre tu pdf 💬')
+
+st.markdown("<p style='font-size:16px; font-weight:normal;'>recuperación (RAG)</p>", unsafe_allow_html=True)
 
 # Load and display image
 try:
