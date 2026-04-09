@@ -9,6 +9,8 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
 
+st.title('Pregunta sobre tu pdf , Recuperación (RAG) 💬')
+
 # Load and display image
 try:
     image = Image.open('Chat_pdf.png')
@@ -89,5 +91,5 @@ else:
 
 
 # App title and presentation
-st.title('Pregunta sobre tu pdf , Recuperación (RAG) 💬')
+
 st.write("Versión de Python:", platform.python_version())
