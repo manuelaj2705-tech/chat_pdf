@@ -16,10 +16,10 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Source+Sans+3:wght@300;400;600&family=Source+Code+Pro:wght@400&display=swap');
 
 html, body, [class*="css"] {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .stApp {
@@ -46,7 +46,7 @@ html, body, [class*="css"] {
 
 /* ── Main heading ── */
 .page-eyebrow {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 0.68rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ html, body, [class*="css"] {
     margin-bottom: 10px;
 }
 .page-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
     font-size: 3rem;
     font-weight: 700;
     color: #111111;
@@ -178,7 +178,7 @@ html, body, [class*="css"] {
     margin-top: 20px;
 }
 .response-label {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 0.62rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -196,7 +196,7 @@ html, body, [class*="css"] {
 
 /* ── Section label ── */
 .section-label {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 0.62rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -214,7 +214,7 @@ html, body, [class*="css"] {
 
 /* ── Footer ── */
 .footer-line {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 0.62rem;
     color: #cccccc;
     margin-top: 48px;
@@ -246,12 +246,12 @@ hr { border: none !important; border-top: 1px solid #e0ddd8 !important; margin: 
 with st.sidebar:
     st.markdown("""
 <div style="padding: 8px 0 24px 0;">
-  <div style="font-family:'IBM Plex Mono',monospace; font-size:0.6rem; letter-spacing:0.22em; text-transform:uppercase; color:#555; margin-bottom:12px;">Acerca de</div>
-  <div style="font-family:'IBM Plex Sans',sans-serif; font-size:0.9rem; color:#aaa; line-height:1.7; font-weight:300;">
+  <div style="font-family:'Source Code Pro',monospace; font-size:0.6rem; letter-spacing:0.22em; text-transform:uppercase; color:#555; margin-bottom:12px;">Acerca de</div>
+  <div style="font-family:'Source Sans 3',sans-serif; font-size:0.9rem; color:#aaa; line-height:1.7; font-weight:300;">
     Este agente usa recuperación aumentada (RAG) para responder preguntas sobre el contenido de tu PDF usando OpenAI.
   </div>
-  <div style="margin-top:28px; font-family:'IBM Plex Mono',monospace; font-size:0.6rem; letter-spacing:0.22em; text-transform:uppercase; color:#555; margin-bottom:12px;">Cómo funciona</div>
-  <div style="font-family:'IBM Plex Sans',sans-serif; font-size:0.82rem; color:#777; line-height:1.8; font-weight:300;">
+  <div style="margin-top:28px; font-family:'Source Code Pro',monospace; font-size:0.6rem; letter-spacing:0.22em; text-transform:uppercase; color:#555; margin-bottom:12px;">Cómo funciona</div>
+  <div style="font-family:'Source Sans 3',sans-serif; font-size:0.82rem; color:#777; line-height:1.8; font-weight:300;">
     01 — Carga tu PDF<br>
     02 — El documento se fragmenta<br>
     03 — Se crean embeddings<br>
