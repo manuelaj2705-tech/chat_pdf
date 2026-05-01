@@ -11,7 +11,6 @@ import platform
 
 st.set_page_config(
     page_title="PDF · RAG",
-    page_icon="📄",
     layout="centered"
 )
 
